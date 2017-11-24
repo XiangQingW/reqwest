@@ -12,7 +12,8 @@ categories = ["web-programming::http-client"]
 [dependencies]
 bytes = "0.4"
 futures = "0.1.15"
-hyper = "0.11"
+hyper = { git = "https://github.com/king6cong/hyper" }
+#hyper = "0.11"
 hyper-tls = "0.1.2"
 libflate = "0.1.11"
 log = "0.3"
